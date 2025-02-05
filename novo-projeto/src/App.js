@@ -17,6 +17,7 @@ function App() {
      <h2>Alterando o jsx</h2>
      <p>Olá , {name.toUpperCase()}</p>
      <p>Soma: {sum(2,4)}</p>
+     <img src={url}></img>
     </div>
   );
 }
