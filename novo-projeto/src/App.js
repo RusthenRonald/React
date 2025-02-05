@@ -1,5 +1,6 @@
 
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
      <p>Olá , {name.toUpperCase()}</p>
      <p>Soma: {sum(2,4)}</p>
      <img src={url}></img>
+     <HelloWorld/>
     </div>
   );
 }
